@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    <h1>My shopping list</h1>
+
+        <form id="Form">
+            <div class="container">
+                <label for="itemInput" class="form-label">Enter a new item:</label>
+                <input type="text" class="form-control" id="itemInput" placeholder="Enter item name" required>
+                <button onclick="addItem()">Add Item</button>
+            </div>
+            
+        </form>
+
+        <ul id="list">
+            <li class="li">Eggs <button onclick="deletsItem()">Delets</button></li>
+            <br>
+            <li class="li">Milk <button onclick="deletsItem()">Delets</button></li>
+            <br>
+            <li class="li">Bread <button onclick="deletsItem()">Delets</button></li>
+            <br>
+            <li class="li">Humous <button onclick="deletsItem()">Delets</button></li>
+        </ul>
+    </div>
+
+    
+    <script src="main3.js"></script>
+</body>
+</html>
